@@ -19,8 +19,4 @@
         <Content Include="$(RepositoryRootDirectory)/deps/cimgui/linux-x64/cimgui.so" CopyToOutputDirectory="PreserveNewest" Link="lib%(Filename)%(Extension)" />
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
-    </ItemGroup>
-
 </Project>
