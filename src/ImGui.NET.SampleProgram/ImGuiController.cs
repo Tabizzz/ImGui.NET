@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Numerics;
 using System.Reflection;
 using System.IO;
+using System.Numerics;
 using Veldrid;
 using System.Runtime.CompilerServices;
+using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace ImGuiNET
 {
@@ -332,7 +333,8 @@ namespace ImGuiNET
         {
             ImGuiIOPtr io = ImGui.GetIO();
 
-            Vector2 mousePosition = snapshot.MousePosition;
+            var mousePosition2 = snapshot.MousePosition;
+            var mousePosition = new Vector2(mousePosition2.X, mousePosition2.Y);
 
             // Determine if any of the mouse buttons were pressed during this snapshot period, even if they are no longer held.
             bool leftPressed = false;

@@ -49,6 +49,9 @@
     <Folder Include="Generated\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <Reference Include="FNA">
+      <HintPath>..\..\deps\FNA\FNA.dll</HintPath>
+    </Reference>
   </ItemGroup>
+	
 </Project>

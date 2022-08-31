@@ -29,4 +29,9 @@
   <ItemGroup>
     <None Remove="build\net40\ImPlot.NET.targets" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FNA">
+      <HintPath>..\..\deps\FNA\FNA.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using System.Numerics;
-using ImPlotNET;
+using Microsoft.Xna.Framework;
 using Veldrid;
 using Veldrid.Sdl2;
 using Veldrid.StartupUtilities;
 
 using static ImGuiNET.ImGuiNative;
+using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace ImGuiNET
 {
