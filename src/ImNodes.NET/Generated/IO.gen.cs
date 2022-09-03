@@ -1,12 +1,9 @@
 using System;
-using System.Numerics;
 using System.Runtime.CompilerServices;
-using System.Text;
-using ImGuiNET;
 
 namespace imnodesNET
 {
-    public unsafe partial struct IO
+	public unsafe partial struct IO
     {
         public EmulateThreeButtonMouse emulate_three_button_mouse;
         public LinkDetachWithModifierClick link_detach_with_modifier_click;

@@ -1,11 +1,10 @@
 using System;
 using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImDrawVert
+	public unsafe partial struct ImDrawVert
     {
         public Vector2 pos;
         public Vector2 uv;

@@ -1,11 +1,10 @@
 using System;
 using System.Numerics;
 using System.Runtime.InteropServices;
-using ImGuiNET;
 
 namespace imnodesNET
 {
-    public static unsafe partial class imnodesNative
+	public static unsafe partial class imnodesNative
     {
         [DllImport("cimnodes", CallingConvention = CallingConvention.Cdecl)]
         public static extern void EmulateThreeButtonMouse_destroy(EmulateThreeButtonMouse* self);

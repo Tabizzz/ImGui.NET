@@ -1,12 +1,10 @@
 using System;
 using System.Numerics;
-using System.Runtime.InteropServices;
-using System.Text;
 using ImGuiNET;
 
 namespace ImGuizmoNET
 {
-    public static unsafe partial class ImGuizmo
+	public static unsafe partial class ImGuizmo
     {
         public static void AllowAxisFlip(bool value)
         {

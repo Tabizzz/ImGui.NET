@@ -1,12 +1,11 @@
 using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
-using System.Text;
 using ImGuiNET;
 
 namespace ImPlotNET
 {
-    public unsafe partial struct ImPlotStyle
+	public unsafe partial struct ImPlotStyle
     {
         public float LineWeight;
         public int Marker;

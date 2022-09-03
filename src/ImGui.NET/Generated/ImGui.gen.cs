@@ -1,11 +1,10 @@
 using System;
 using Microsoft.Xna.Framework;
-using System.Runtime.InteropServices;
 using System.Text;
 
 namespace ImGuiNET
 {
-    public static unsafe partial class ImGui
+	public static unsafe partial class ImGui
     {
         public static ImGuiPayloadPtr AcceptDragDropPayload(string type)
         {

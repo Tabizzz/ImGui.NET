@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiTableSortSpecs
+	public unsafe partial struct ImGuiTableSortSpecs
     {
         public ImGuiTableColumnSortSpecs* Specs;
         public int SpecsCount;

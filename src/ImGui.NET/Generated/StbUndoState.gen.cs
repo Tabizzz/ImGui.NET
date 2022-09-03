@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct StbUndoState
+	public unsafe partial struct StbUndoState
     {
         public StbUndoRecord undo_rec_0;
         public StbUndoRecord undo_rec_1;

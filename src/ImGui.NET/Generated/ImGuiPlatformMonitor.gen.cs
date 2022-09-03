@@ -1,11 +1,10 @@
 using System;
 using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiPlatformMonitor
+	public unsafe partial struct ImGuiPlatformMonitor
     {
         public Vector2 MainPos;
         public Vector2 MainSize;

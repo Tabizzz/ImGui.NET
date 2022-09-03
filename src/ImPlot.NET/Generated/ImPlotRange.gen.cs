@@ -1,12 +1,9 @@
 using System;
-using System.Numerics;
 using System.Runtime.CompilerServices;
-using System.Text;
-using ImGuiNET;
 
 namespace ImPlotNET
 {
-    public unsafe partial struct ImPlotRange
+	public unsafe partial struct ImPlotRange
     {
         public double Min;
         public double Max;

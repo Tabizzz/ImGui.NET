@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
 using System.Runtime.InteropServices;
-using System.Text;
+using Microsoft.Xna.Framework;
 using static ImGuiNET.Extras.TextEditor;
 
 namespace ImGuiNET.Extras;

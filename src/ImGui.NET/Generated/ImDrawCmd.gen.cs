@@ -1,11 +1,10 @@
 using System;
 using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImDrawCmd
+	public unsafe partial struct ImDrawCmd
     {
         public Vector4 ClipRect;
         public IntPtr TextureId;

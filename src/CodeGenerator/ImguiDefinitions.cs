@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
@@ -8,7 +7,7 @@ using Newtonsoft.Json.Linq;
 
 namespace CodeGenerator
 {
-    class ImguiDefinitions
+	class ImguiDefinitions
     {
         public EnumDefinition[] Enums;
         public TypeDefinition[] Types;

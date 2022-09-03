@@ -1,12 +1,10 @@
 using System;
-using System.Numerics;
 using System.Runtime.CompilerServices;
-using System.Text;
 using ImGuiNET;
 
 namespace imnodesNET
 {
-    public unsafe partial struct Style
+	public unsafe partial struct Style
     {
         public float grid_spacing;
         public float node_corner_rounding;

@@ -1,16 +1,13 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
 namespace ImGuiNET.SampleProgram.XNA
 {
-    /// <summary>
-    /// ImGui renderer for use with XNA-likes (FNA & MonoGame)
-    /// </summary>
-    public class ImGuiRenderer
+	/// <summary>
+	/// ImGui renderer for use with XNA-likes (FNA & MonoGame)
+	/// </summary>
+	public class ImGuiRenderer
     {
         private Game _game;
 

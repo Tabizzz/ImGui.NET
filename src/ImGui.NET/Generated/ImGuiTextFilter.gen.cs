@@ -1,11 +1,10 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiTextFilter
+	public unsafe partial struct ImGuiTextFilter
     {
         public fixed byte InputBuf[256];
         public ImVector Filters;

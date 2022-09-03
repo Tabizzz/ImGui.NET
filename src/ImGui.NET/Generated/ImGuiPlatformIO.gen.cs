@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiPlatformIO
+	public unsafe partial struct ImGuiPlatformIO
     {
         public IntPtr Platform_CreateWindow;
         public IntPtr Platform_DestroyWindow;

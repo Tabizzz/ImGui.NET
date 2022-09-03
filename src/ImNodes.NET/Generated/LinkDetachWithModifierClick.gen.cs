@@ -1,12 +1,8 @@
 using System;
-using System.Numerics;
-using System.Runtime.CompilerServices;
-using System.Text;
-using ImGuiNET;
 
 namespace imnodesNET
 {
-    public unsafe partial struct LinkDetachWithModifierClick
+	public unsafe partial struct LinkDetachWithModifierClick
     {
         public byte* modifier;
     }

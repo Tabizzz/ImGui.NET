@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiTableColumnSortSpecs
+	public unsafe partial struct ImGuiTableColumnSortSpecs
     {
         public uint ColumnUserID;
         public short ColumnIndex;

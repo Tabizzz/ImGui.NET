@@ -1,11 +1,10 @@
 using System;
 using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiPlatformImeData
+	public unsafe partial struct ImGuiPlatformImeData
     {
         public byte WantVisible;
         public Vector2 InputPos;

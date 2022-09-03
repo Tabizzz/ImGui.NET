@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
-using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiTextBuffer
+	public unsafe partial struct ImGuiTextBuffer
     {
         public ImVector Buf;
     }

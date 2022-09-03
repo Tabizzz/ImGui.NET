@@ -1,11 +1,10 @@
 using System;
 using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImDrawList
+	public unsafe partial struct ImDrawList
     {
         public ImVector CmdBuffer;
         public ImVector IdxBuffer;

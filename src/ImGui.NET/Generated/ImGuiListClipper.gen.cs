@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct ImGuiListClipper
+	public unsafe partial struct ImGuiListClipper
     {
         public int DisplayStart;
         public int DisplayEnd;

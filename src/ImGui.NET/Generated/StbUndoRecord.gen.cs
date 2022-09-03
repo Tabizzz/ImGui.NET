@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct StbUndoRecord
+	public unsafe partial struct StbUndoRecord
     {
         public int where;
         public int insert_length;

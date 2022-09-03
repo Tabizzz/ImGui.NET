@@ -1,8 +1,4 @@
-﻿using System;
-using System.Globalization;
-using ImGuiNET;
-using System.Numerics;
-
+﻿
 #if false
 
 namespace ImGuiNET

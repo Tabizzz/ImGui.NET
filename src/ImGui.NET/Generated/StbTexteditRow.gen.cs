@@ -1,11 +1,9 @@
 using System;
-using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace ImGuiNET
 {
-    public unsafe partial struct StbTexteditRow
+	public unsafe partial struct StbTexteditRow
     {
         public float x0;
         public float x1;
